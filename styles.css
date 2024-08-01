@@ -149,6 +149,63 @@ body {
 
 
 /*Carrusel */
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-slide img {
+    width: 100%;
+    display: block;
+}
+
+.carousel-slide p {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.carousel-prev,
+.carousel-next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.carousel-prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.carousel-next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.carousel-prev:hover,
+.carousel-next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
 
 
 /*Blogs */

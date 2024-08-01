@@ -11,3 +11,4 @@ function verVideo() {
 function verPremio() {
     location.href = "./Premio.html"
 }
+
