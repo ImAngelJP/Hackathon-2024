@@ -44,9 +44,13 @@ body {
     width: 30px;
 }
 
+.main section{
+    margin: 20px;
+}
+
 .main {
     flex: 1;
-    padding: 20px;
+    overflow-y: scroll;
 }
 
 .hero {
@@ -72,6 +76,12 @@ body {
     font-size: 1em;
     color: #333;
     margin-bottom: 20px;
+}
+
+.premios {
+    background-color: #f4f4f4;
+    border-radius: 40px 0 40px 0;
+    padding: 30px;
 }
 
 .video-section {
@@ -156,3 +166,18 @@ body {
     font-size: 0.8em;
 }
 
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.boton-premio{
+    border: 0px;
+    background: none;
+    margin-top: 10px;
+    width: 150px;
+}
