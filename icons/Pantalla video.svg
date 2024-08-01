@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 341.14 217.27">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: url(#Degradado_sin_nombre_12);
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: url(#Degradado_sin_nombre_12-2);
+      }
+
+      .cls-4 {
+        fill: #14395f;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre_12" data-name="Degradado sin nombre 12" x1="165.82" y1="207.91" x2="165.82" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1f2649"/>
+      <stop offset="1" stop-color="#2da3dc"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_12-2" data-name="Degradado sin nombre 12" x1="12.29" y1="101.33" x2="302.34" y2="101.33" xlink:href="#Degradado_sin_nombre_12"/>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <rect class="cls-4" x="9.49" y="9.36" width="331.64" height="207.91"/>
+    <g>
+      <rect class="cls-2" width="331.64" height="207.91"/>
+      <rect class="cls-5" x="62.23" y="46.02" width="10.61" height="9.98"/>
+      <rect class="cls-5" x="243.08" y="147.62" width="10.61" height="9.98"/>
+      <rect class="cls-5" x="288.65" y="20.65" width="10.61" height="9.98"/>
+      <rect class="cls-5" x="150.38" y="149.98" width="10.61" height="9.98"/>
+      <rect class="cls-5" x="150.38" y="33.13" width="10.61" height="9.98"/>
+      <rect class="cls-1" x="242.8" y="84.97" width="5.59" height="5.26"/>
+      <rect class="cls-1" x="291.16" y="187.79" width="5.59" height="5.26"/>
+      <rect class="cls-1" x="196.09" y="123.9" width="5.59" height="5.26"/>
+      <rect class="cls-5" x="50.44" y="102.96" width="5.59" height="5.26"/>
+      <rect class="cls-1" x="56.51" y="165.1" width="5.59" height="5.26"/>
+      <rect class="cls-5" x="9.49" y="190.42" width="5.59" height="5.26"/>
+      <rect class="cls-1" x="17.88" y="64.11" width="5.59" height="5.26"/>
+      <rect class="cls-5" x="128.87" y="110.68" width="5.59" height="5.26"/>
+      <rect class="cls-5" x="105.28" y="151.73" width="5.59" height="5.26"/>
+      <rect class="cls-5" x="187.71" y="13.64" width="5.59" height="5.26"/>
+      <rect class="cls-5" x="250.9" y="116.48" width="5.59" height="5.26"/>
+      <rect class="cls-5" x="316.56" y="165.1" width="5.59" height="5.26"/>
+      <rect class="cls-1" x="302.34" y="92.2" width="5.59" height="5.26"/>
+      <rect class="cls-1" x="178.97" y="71.62" width="5.59" height="5.26"/>
+      <rect class="cls-1" x="63.87" y="125.52" width="5.59" height="5.26"/>
+      <rect class="cls-5" x="240.29" y="35.49" width="5.59" height="5.26"/>
+      <path class="cls-3" d="M124.58,28.27h-5.59v-5.26h5.59v5.26ZM98.49,147.35h-5.59v5.26h5.59v-5.26ZM155.97,79.83h-5.59v5.26h5.59v-5.26ZM110.87,77.2h-5.59v5.26h5.59v-5.26ZM214.78,179.89h-5.59v5.26h5.59v-5.26ZM302.34,129.16h-5.59v5.26h5.59v-5.26ZM153.18,185.16h-5.59v5.26h5.59v-5.26ZM17.88,126.53h-5.59v5.26h5.59v-5.26ZM198.88,48.39h-5.59v5.26h5.59v-5.26ZM253.98,12.24h-5.59v5.26h5.59v-5.26ZM293.95,66.74h-5.59v5.26h5.59v-5.26Z"/>
+    </g>
+  </g>
+</svg>
