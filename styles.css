@@ -44,13 +44,9 @@ body {
     width: 30px;
 }
 
-.main section{
-    margin: 20px;
-}
-
 .main {
     flex: 1;
-    overflow-y: scroll;
+    padding: 20px;
 }
 
 .hero {
@@ -70,6 +66,8 @@ body {
 .hero-image {
     width: 100%;
     height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
 }
 
 .welcome {
@@ -78,30 +76,22 @@ body {
     margin-bottom: 20px;
 }
 
-.premios {
-    background-color: #f4f4f4;
-    border-radius: 40px 0 40px 0;
-    padding: 30px;
-}
-
 .video-section {
     margin-top: 20px;
 }
 
 .footer {
-    background: #003366;
-    color: #fff;
     text-align: center;
-    padding: 20px 10px;
 }
 
 .footer-top {
+    background: #003366;
+    color: #fff;
+    padding: 20px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-bottom: 1px solid #fff;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
 }
 
 .footer-logo {
@@ -164,20 +154,4 @@ body {
     color: #333;
     padding: 10px;
     font-size: 0.8em;
-}
-
-.row{
-    display: flex;
-    flex-direction: row;
-}
-
-.between {
-    justify-content: space-between;
-}
-
-.boton-premio{
-    border: 0px;
-    background: none;
-    margin-top: 10px;
-    width: 150px;
 }
