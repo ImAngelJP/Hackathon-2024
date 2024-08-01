@@ -5,9 +5,9 @@ function playVideo(videoSrc) {
 }
 
 function verVideo() {
-    location.href = "Video.html"
+    location.href = "./Video.html"
 }
 
 function verPremio() {
-    location.href = "Premio.html"
+    location.href = "./Premio.html"
 }
