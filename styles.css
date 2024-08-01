@@ -120,10 +120,15 @@ body {
 }
 
 .footer-middle {
-    margin-bottom: 20px;
+    background: #fff;
+    color: #333;
+    padding: 20px 10px;
 }
 
 .footer-bottom {
+    background: #fff;
+    color: #333;
+    padding: 20px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -145,6 +150,9 @@ body {
 }
 
 .footer-text {
-    margin-top: 20px;
+    background: #fff;
+    color: #333;
+    padding: 10px;
     font-size: 0.8em;
 }
+
