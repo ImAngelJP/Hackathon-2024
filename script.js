@@ -13,6 +13,10 @@ function verPremio() {
     location.href = "./Premio.html"
 }
 
+function verIndex() {
+    location.href = "./Index.html"
+}
+
 // Modal
 var modal = document.getElementById("myModal");
 var btn = document.getElementById("openModalBtn");
