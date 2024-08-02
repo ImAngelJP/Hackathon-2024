@@ -259,31 +259,31 @@ main {
 .carousel {
     position: relative;
     width: 100%;
-    max-width: 100%; /* Asegura que no exceda el ancho del contenedor */
+    max-width: 100%; 
     overflow: hidden;
-    margin: 0 auto; /* Centra el carrusel en la página */
-    padding: 0; /* Elimina cualquier padding adicional */
+    margin: 0 auto; 
+    padding: 0; 
 }
 
 .carousel-container {
     display: flex;
     transition: transform 0.5s ease-in-out;
     width: 100%;
-    padding: 0; /* Elimina cualquier padding adicional */
+    padding: 0; 
 }
 
 .carousel-slide {
     flex: 0 0 100%;
     max-width: 100%;
     box-sizing: border-box;
-    padding: 0; /* Asegura que no haya padding adicional */
+    padding: 0; 
 }
 
 .carousel-slide img {
     width: 100%;
     height: auto;
     display: block;
-    max-width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    max-width: 100%; 
 }
 
 .carousel-prev, .carousel-next {
@@ -304,11 +304,11 @@ main {
 }
 
 .carousel-prev {
-    left: 10px; /* Alinea el botón a la izquierda, encima de la imagen */
+    left: 10px; 
 }
 
 .carousel-next {
-    right: 10px; /* Alinea el botón a la derecha, encima de la imagen */
+    right: 10px; 
 }
 
 .carousel-prev:hover, .carousel-next:hover {
@@ -319,31 +319,31 @@ main {
 .carousel-blog {
     position: relative;
     width: 100%;
-    max-width: 100%; /* Asegura que no exceda el ancho del contenedor */
+    max-width: 100%; 
     overflow: hidden;
-    margin: 0 auto; /* Centra el carrusel en la página */
-    padding: 0; /* Elimina cualquier padding adicional */
+    margin: 0 auto; 
+    padding: 0; 
 }
 
 .carousel-blog-container {
     display: flex;
     transition: transform 0.5s ease-in-out;
     width: 100%;
-    padding: 0; /* Elimina cualquier padding adicional */
+    padding: 0; 
 }
 
 .carousel-blog-slide {
     flex: 0 0 100%;
     max-width: 100%;
     box-sizing: border-box;
-    padding: 0; /* Asegura que no haya padding adicional */
+    padding: 0; 
 }
 
 .carousel-blog-slide img {
     width: 100%;
     height: auto;
     display: block;
-    max-width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    max-width: 100%; 
 }
 
 .carousel-blog-prev, .carousel-blog-next {
@@ -364,11 +364,11 @@ main {
 }
 
 .carousel-blog-prev {
-    left: 10px; /* Alinea el botón a la izquierda, encima de la imagen */
+    left: 10px; 
 }
 
 .carousel-blog-next {
-    right: 10px; /* Alinea el botón a la derecha, encima de la imagen */
+    right: 10px; 
 }
 
 .carousel-blog-prev:hover, .carousel-blog-next:hover {
