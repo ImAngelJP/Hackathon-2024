@@ -177,8 +177,8 @@ main {
 .gray-box {
     background-color: #f4f4f4;
     padding: 20px;
-    margin: 0;
-    border-radius: 40px 0px 40px 0px;
+    border-radius: 20px 0px 20px 0px;
+    margin: 15px 30px;
     max-width: 100%;
     text-align: center;
     font-family: 'Lato', sans-serif;
@@ -203,7 +203,8 @@ main {
 /* Sección Premios */
 .premios {
     background-color: #f4f4f4;
-    border-radius: 40px 0 40px 0;
+    border-radius: 20px 0 20px 0;
+    margin: 15px 30px;
     padding: 30px;
 }
 
@@ -435,15 +436,17 @@ main {
 .monedas {
     width: 30%;
 }
-
+/* 
 .premio {
     margin: 15px 30px;
     padding: 20px;
-}
+} */
 
-.gray-box.premio {
+/* .gray-box {
     border-radius: 20px 0px 20px 0px;
-}
+    margin: 15px 30px;
+    padding: 20px;
+} */
 
 .premio-title {
     width: 100%;
