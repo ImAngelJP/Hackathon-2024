@@ -1,3 +1,4 @@
+
 function playVideo(videoSrc) {
     const videoPlayer = document.getElementById('video');
     videoPlayer.src = videoSrc;
@@ -10,5 +11,24 @@ function verVideo() {
 
 function verPremio() {
     location.href = "./Premio.html"
+}
+
+// Modal
+var modal = document.getElementById("myModal");
+var btn = document.getElementById("openModalBtn");
+var modalImage = document.getElementById("modalImage");
+
+btn.onclick = function () {
+    modal.style.display = "block";
+}
+
+modalImage.onclick = function () {
+    modal.style.display = "none";
+}
+
+window.onclick = function (event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
 }
 

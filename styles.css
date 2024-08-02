@@ -67,7 +67,23 @@ main {
     width: 30px;
 }
 
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px 0; 
+}
+
 /* Hero */
+.hero-container {
+    position: relative;
+    text-align: center;
+}
+
 .hero {
     background-color: #00a7e1;
     padding: 20px;
@@ -86,6 +102,70 @@ main {
     width: 100%;
     height: auto;
 }
+
+.text-overlay {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    width: 80%; 
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+}
+
+.parrafo{
+    width: 80%; 
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    margin: 0 10%;
+}
+
+/*Modal*/
+.open-modal-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.svg-button {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+    background-color: #ffffff;
+    margin: 10% auto;
+    padding: 20px 20px 30px 80px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modal-content img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+  }
 
 /* Sección Welcome */
 .welcome {
