@@ -14,7 +14,7 @@ function verPremio() {
 }
 
 function verInicio() {
-    location.href = "./Inicio.html"
+    location.href = "./inicio.html"
 }
 
 // Modal
