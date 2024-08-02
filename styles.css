@@ -103,6 +103,31 @@ main {
     height: auto;
 }
 
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    border: 10px solid white; 
+    border-radius: 8px; 
+}
+
+.progreso {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text-video {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    pointer-events: none; 
+}
+
 .text-overlay {
     position: absolute;
     top: 90%;
