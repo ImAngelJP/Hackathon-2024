@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Banca</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-content">
+            <img src="icons/bi-logo.svg" alt="Logo" class="logo">
+            <div class="menu-icon">
+                <img src="icons/menu-hamburger.svg" alt="Menú" class="menu-img">
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero-container">
+            <img src="icons/Título.svg" alt="Imagen principal" class="hero-image">
+            <div class="text-overlay">
+                <p>
+                    ¡Bienvenidos al inicio de tu viaje financiero! 🌟 Si estás dando tus primeros pasos en el
+                </p>
+            </div>
+        </section>
+
+        <section class="hero-container">
+            <p class="parrafo"> manejo de tus
+                ingresos, ¡este es tu espacio! Con nuestros tutoriales, aprenderás a tomar el control de tus finanzas de
+                manera sencilla y divertida. Desde crear tu primera cuenta bancaria hasta descubrir el poder del ahorro
+                e inversión, te guiaremos en cada paso. <strong>¡Empieza hoy y transforma tu vida financiera!</strong>
+            </p>
+        </section><br>
+        
+        <section class="centered-container">
+            <!-- Botón que abre el modal -->
+            <button id="openModalBtn" class="open-modal-btn">
+                <img src="icons/boton-como-ganar-monedas.svg" alt="Cómo ganar monedas" class="svg-button" id="openModalBtn">
+            </button>
+        </section>
+
+        <!-- Modal -->
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <img src="icons/modal_como_ganar_monedas.svg" alt="Imagen del Modal" id="modalImage">
+            </div>
+        </div>
+
+        <!-- Carrusel de videos -->
+        <section class="carousel">
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <img src="videos/Carrusel-1.jpg" alt="Todo acerca de tu cuenta">
+                </div>
+                <div class="carousel-slide">
+                    <img src="videos/Carrusel-2.jpg" alt="Cómo ahorrar">
+                </div>
+                <div class="carousel-slide">
+                    <img src="videos/Carrusel-3.jpg" alt="Términos financieros">
+                </div>
+            </div>
+            <button class="carousel-prev">&#10094;</button>
+            <button class="carousel-next">&#10095;</button>
+        </section>
+
+        <section class="centered-container">
+            <!-- Botón que abre el index -->
+            <button class="open-modal-btn">
+                <img src="icons/Boton_comenzar 1.svg" alt="Comenzar" class="svg-button" onclick="verInicio()">
+            </button>
+        </section>
+            <br><br>
+
+        <footer class="footer">
+            <div class="footer-top">
+                <img src="icons/BI logo blanco.svg" alt="Logo" class="footer-logo">
+                <div class="footer-search">
+                    <input type="text" placeholder="Buscar...">
+                </div>
+                <div class="footer-download">
+                    <h3>Descarga Bi en Línea</h3>
+                    <div class="download-icons">
+                        <img src="icons/app-store.svg" alt="App Store">
+                        <img src="icons/google-play.svg" alt="Google Play">
+
+                    </div>
+                    <h3>Descarga Bi Banking</h3>
+                    <div class="download-icons">
+                        <img src="icons/app-store.svg" alt="App Store">
+                        <img src="icons/google-play.svg" alt="Google Play">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-middle">
+                <p>Términos y condiciones | Mapa del sitio | Legales</p>
+            </div>
+            <div class="footer-bottom">
+                <div class="contact-info">
+                    <p><strong>Teléfono:</strong> 2411-6000</p>
+                    <p><strong>PBX:</strong> 1717</p>
+                    <p><strong>Dirección:</strong> Vía 5 5-36 Zona 4, Ciudad de Guatemala, Guatemala.</p>
+                </div>
+                <div class="social-icons">
+                    <img src="icons/facebook.svg" alt="Facebook">
+                    <img src="icons/instagram.svg" alt="Instagram">
+                    <img src="icons/twitter.svg" alt="Twitter">
+                    <img src="icons/youtube.svg" alt="YouTube">
+                    <img src="icons/linkedin.svg" alt="LinkedIn">
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+    <script src="carrusel.js"></script>
+</body>
+
+</html>

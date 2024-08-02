@@ -462,6 +462,21 @@ main {
 .monedas {
     width: 30%;
 }
+
+.input-row{
+    width: 100%;
+    margin: 10px 0px;
+    padding: 0 80px;
+}
+
+.input-row input{
+    width: 100%;
+    background-color: #EEE;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+}
 /* 
 .premio {
     margin: 15px 30px;
