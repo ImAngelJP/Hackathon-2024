@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Primera Banca</title>
+    <title>Mi primera banca</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
     <header class="header">
         <div class="header-content">
@@ -18,36 +16,32 @@
         </div>
     </header>
     <main class="main">
-        <section class="hero-container">
-            <img src="icons/Título.svg" alt="Imagen principal" class="hero-image">
-            <div class="text-overlay">
-                <p>
-                    ¡Bienvenidos al inicio de tu viaje financiero! 🌟 Si estás dando tus primeros pasos en el
-                </p>
+        <img src="icons/Título.svg" alt="Imagen principal" class="hero-image">
+
+        <section class="gray-box first">
+            <p>¿Quieres tomar el control de tus finanzas y asegurar un futuro económico estable? 
+                Nuestra app está diseñada para ayudarte a comprender y gestionar tus finanzas personales de manera efectiva. Con herramientas, módulos educativos y un blog donde aprenderás a ahorrar, invertir y planificar tu futuro financiero de manera sencilla y divertida.<br>
+            <strong>¡Empieza hoy y transforma tu vida financiera!</strong></p>
+        </section>
+
+        <section class="video-section">
+            <div class="image-container">
+                <img class="progreso" src="videos/Bienvenida.jpg" alt="Bienvenida" width="100%" height="315">
+                <div class="overlay-text-video">
+                    <h1>Mi primera banca</h1>
+                </div>
             </div>
         </section>
 
-        <section class="hero-container">
-            <p class="parrafo"> manejo de tus
-                ingresos, ¡este es tu espacio! Con nuestros tutoriales, aprenderás a tomar el control de tus finanzas de
-                manera sencilla y divertida. Desde crear tu primera cuenta bancaria hasta descubrir el poder del ahorro
-                e inversión, te guiaremos en cada paso. <strong>¡Empieza hoy y transforma tu vida financiera!</strong>
-            </p>
-        </section><br>
-        
-        <section class="centered-container">
-            <!-- Botón que abre el modal -->
-            <button id="openModalBtn" class="open-modal-btn">
-                <img src="icons/boton-como-ganar-monedas.svg" alt="Cómo ganar monedas" class="svg-button">
-            </button>
-        </section>
-
-        <!-- Modal -->
-        <div id="myModal" class="modal">
-            <div class="modal-content">
-                <img src="icons/modal_como_ganar_monedas.svg" alt="Imagen del Modal" id="modalImage">
+        <section>
+            <div class="premios">
+                <img class="progreso" src="icons/Contenido cuadro gris.svg" alt="">
+                <div class="row between">
+                    <button class="boton-premio" onclick="verPremio()"><img src="icons/Ver premios.svg" alt=""></button>
+                    <button  class="boton-premio"><img src="icons/Ver puntos.svg" alt=""></button>
+                </div>
             </div>
-        </div>
+        </section>
 
         <!-- Carrusel de videos -->
         <section class="carousel">
@@ -64,9 +58,30 @@
             </div>
             <button class="carousel-prev">&#10094;</button>
             <button class="carousel-next">&#10095;</button>
+        </section><br>
+
+        <section class="gray-box">
+            <p>Bienvenidos a nuestro blog, donde podrás compartir tus dudas o conocimientos con otras personas.<br>
+            <strong>¡Empieza hoy y transforma tu vida financiera!</strong></p>
+        </section>
+        
+        <!-- Carrusel de blogs -->
+        <section class="carousel-blog">
+            <div class="carousel-blog-container">
+                <div class="carousel-blog-slide">
+                    <img src="blogs/Blog-1.jpg" alt="Blog 1">
+                </div>
+                <div class="carousel-blog-slide">
+                    <img src="blogs/Blog-2.jpg" alt="Blog 2">
+                </div>
+                <div class="carousel-blog-slide">
+                    <img src="blogs/Blog-3.jpg" alt="Blog 3">
+                </div>
+            </div>
+            <button class="carousel-blog-prev">&#10094;</button>
+            <button class="carousel-blog-next">&#10095;</button>
         </section>
 
-        <br><br>
 
         <footer class="footer">
             <div class="footer-top">
@@ -79,7 +94,7 @@
                     <div class="download-icons">
                         <img src="icons/app-store.svg" alt="App Store">
                         <img src="icons/google-play.svg" alt="Google Play">
-
+                       
                     </div>
                     <h3>Descarga Bi Banking</h3>
                     <div class="download-icons">
@@ -110,5 +125,4 @@
     <script src="script.js"></script>
     <script src="carrusel.js"></script>
 </body>
-
 </html>
