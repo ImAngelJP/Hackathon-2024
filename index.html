@@ -21,9 +21,18 @@
         <section class="hero-container">
             <img src="icons/Título.svg" alt="Imagen principal" class="hero-image">
             <div class="text-overlay">
-                <button class="boton-premio" onclick="verPremio()"><img src="icons/Ver premios.svg" alt=""></button>
+                <button class="boton-premio" id="boton-registrar"><img src="icons/Ver premios.svg" alt=""></button>
             </div>
         </section>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content-register"><br>
+                <p style="font-family: 'Press Start 2P', cursive; color: #003366;">
+                    ¡Hola de nuevo NOMBRE!</p>
+                <p style="font-family: 'Lato', cursive; color: #003366;">Retomemos tu aprendizaje y continúa </p>
+                <p style="font-family: 'Lato', cursive; color: #003366;">transformando tu vida financiera</p><br>
+            </div>
+        </div>
 
         <section class="input-row">
             <input type="number" name="Nombre" id="Nombre" placeholder="Número de DPI">
@@ -75,7 +84,8 @@
         </footer>
     </main>
     <script src="script.js"></script>
-    <script src="carrusel.js"></script>
+    <script src="register.js"></script> 
+
 </body>
 
 </html>
