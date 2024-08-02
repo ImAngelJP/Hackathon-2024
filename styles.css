@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 /* Reset CSS */
 * {
     margin: 0;
@@ -15,20 +17,21 @@ html, body {
 body {
     margin: 0;
     padding: 0;
-    width: 100%;
-    max-width: 430px; /* Ancho máximo del iPhone 14 Pro Max */
-    overflow-x: hidden; /* Evita el desbordamiento horizontal */
+    max-width: 430px;
+    overflow-x: hidden; 
     box-sizing: border-box;
 }
 
 main {
-    width: 100%;
-    height: 100%;
-    overflow-y: auto; /* Permite hacer scroll si el contenido es más largo */
+    max-width: 100%;
+    overflow-x: hidden; 
+    padding: 0;
 }
 
-.main section {
-    margin: 20px;
+.header, .footer {
+    max-width: 100%;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .main {
@@ -91,6 +94,32 @@ main {
     margin-bottom: 20px;
 }
 
+.gray-box {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 0;
+    border-radius: 40px 0px 40px 0px;
+    max-width: 100%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    color: #003366;
+}
+
+.gray-box p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.gray-box strong {
+    font-weight: bold;
+}
+
+
+.first{
+    font-size: 0.7em;
+}
+
 /* Sección Premios */
 .premios {
     background-color: #f4f4f4;
@@ -122,27 +151,33 @@ main {
 
 /* Carrusel de Videos */
 .carousel {
-    width: 100%;
-    overflow: hidden;
     position: relative;
-    margin: 20px 0;
+    width: 100%;
+    max-width: 100%; /* Asegura que no exceda el ancho del contenedor */
+    overflow: hidden;
+    margin: 0 auto; /* Centra el carrusel en la página */
+    padding: 0; /* Elimina cualquier padding adicional */
 }
 
 .carousel-container {
     display: flex;
     transition: transform 0.5s ease-in-out;
     width: 100%;
+    padding: 0; /* Elimina cualquier padding adicional */
 }
 
 .carousel-slide {
     flex: 0 0 100%;
     max-width: 100%;
+    box-sizing: border-box;
+    padding: 0; /* Asegura que no haya padding adicional */
 }
 
 .carousel-slide img {
     width: 100%;
     height: auto;
     display: block;
+    max-width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
 }
 
 .carousel-prev, .carousel-next {
@@ -154,16 +189,20 @@ main {
     border: none;
     cursor: pointer;
     z-index: 10;
+    padding: 15px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 20px;
 }
 
 .carousel-prev {
-    left: 0;
-    border-radius: 3px 0 0 3px;
+    left: 10px; /* Alinea el botón a la izquierda, encima de la imagen */
 }
 
 .carousel-next {
-    right: 0;
-    border-radius: 0 3px 3px 0;
+    right: 10px; /* Alinea el botón a la derecha, encima de la imagen */
 }
 
 .carousel-prev:hover, .carousel-next:hover {
@@ -172,27 +211,33 @@ main {
 
 /* Carrusel de Blogs */
 .carousel-blog {
-    width: 100%;
-    overflow: hidden;
     position: relative;
-    margin: 20px 0;
+    width: 100%;
+    max-width: 100%; /* Asegura que no exceda el ancho del contenedor */
+    overflow: hidden;
+    margin: 0 auto; /* Centra el carrusel en la página */
+    padding: 0; /* Elimina cualquier padding adicional */
 }
 
 .carousel-blog-container {
     display: flex;
     transition: transform 0.5s ease-in-out;
     width: 100%;
+    padding: 0; /* Elimina cualquier padding adicional */
 }
 
 .carousel-blog-slide {
     flex: 0 0 100%;
     max-width: 100%;
+    box-sizing: border-box;
+    padding: 0; /* Asegura que no haya padding adicional */
 }
 
 .carousel-blog-slide img {
     width: 100%;
     height: auto;
     display: block;
+    max-width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
 }
 
 .carousel-blog-prev, .carousel-blog-next {
@@ -204,16 +249,20 @@ main {
     border: none;
     cursor: pointer;
     z-index: 10;
+    padding: 15px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 20px;
 }
 
 .carousel-blog-prev {
-    left: 0;
-    border-radius: 3px 0 0 3px;
+    left: 10px; /* Alinea el botón a la izquierda, encima de la imagen */
 }
 
 .carousel-blog-next {
-    right: 0;
-    border-radius: 0 3px 3px 0;
+    right: 10px; /* Alinea el botón a la derecha, encima de la imagen */
 }
 
 .carousel-blog-prev:hover, .carousel-blog-next:hover {
