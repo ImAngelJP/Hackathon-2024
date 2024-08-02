@@ -13,8 +13,8 @@ function verPremio() {
     location.href = "./Premio.html"
 }
 
-function verIndex() {
-    location.href = "./Index.html"
+function verInicio() {
+    location.href = "./Inicio.html"
 }
 
 // Modal
