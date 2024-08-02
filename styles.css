@@ -235,11 +235,10 @@ main {
     font-size: 1em;
     background: #fff1c2;
     padding: 4px 14px;
-    color: #010101; /* Cambia este color según el diseño que desees */
-    pointer-events: none; /* Evita que el texto interfiera con el clic del botón */
+    color: #010101; 
+    pointer-events: none; 
     text-align: center;
 }
-
 
 /* Sección Welcome */
 .welcome {
